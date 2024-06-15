@@ -23,7 +23,9 @@ function randomQuotes(arr1){
 function displayQuotes(){
     const quote = randomQuotes(quote_array);
     document.getElementById('quote').innerText = quote;
-} // html id='quote'. JavaScript generates a random quote and assigns it to the innerText property of the <span> element.
+} // html id='quote'. 
+// finds the id and span and displays the quote it got from randomQuotes
+// JavaScript generates a random quote and assigns it to the innerText property of the <span> element.
 // <span> is a place holder
 
 
@@ -32,6 +34,8 @@ document.addEventListener('DOMContentLoaded', function(){
 
     document.getElementById('regenerate-button').addEventListener('click', displayQuotes); // addEventlistener(type, listener)
 });
+// Find the element on the web page that has the ID 'regenerate-button'. 
+// When someone clicks on this element, run the function called displayQuotes
 
 /*
 
