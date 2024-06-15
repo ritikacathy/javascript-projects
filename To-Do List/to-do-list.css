@@ -1,0 +1,47 @@
+
+* {
+background-color: #FEF9ED;
+color: black;
+}
+
+h1 {
+text-align: center;
+font-size: 40px;
+text-shadow: 0 0 3px #FEEEC7, 0 0 5px #FEDA7F;
+}
+
+p {
+font-size: 20px;
+text-align: center;
+}
+
+#TextInput{
+    height: 50px;
+    width: 280px;
+    text-align: left;
+    font-size: medium;
+}
+
+.box{
+background-color: #FEE5A8;
+border: solid #FEDA7F;
+height: 500px;
+width: 400px;
+padding: 20px;
+margin-left: 33%;
+text-align: left;
+}
+
+
+.button-placement{
+margin-left: 0%;
+text-align: center;
+width: 107px;
+height: 55px;
+}
+
+.ToDoList, #Listed{
+    
+    text-align: left;
+    font-size: large;
+}
